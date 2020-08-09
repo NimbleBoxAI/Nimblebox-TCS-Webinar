@@ -25,6 +25,6 @@ def grade_2(predicted_labels):
         if(acc>=0.75):
             grade=100
     except:
-        return "Answer is not in format as specified in the question"
+        return "Answer is doesn't have accuracy above >=0.75"
     return grade
     
