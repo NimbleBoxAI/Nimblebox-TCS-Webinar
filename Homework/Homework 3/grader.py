@@ -2,7 +2,7 @@ import requests
 user_id = open('/home/admin_/nimblebox-comput-server/user.txt').read()
 
 import pickle
-def grade_1(df):
+def grader_1(df):
     try:
         file = open('check.pkl', 'rb')
         data = pickle.load(file)

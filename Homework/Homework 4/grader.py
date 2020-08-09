@@ -4,7 +4,7 @@ from math import sqrt
 import requests
 user_id = open('/home/admin_/nimblebox-comput-server/user.txt').read()
 
-def grade_1(test_labels_predict):
+def grader_1(test_labels_predict):
     try:
         global user_id 
         file = open('check.pkl', 'rb')
@@ -24,7 +24,7 @@ def grade_1(test_labels_predict):
         return "Answer is not in format as specified in the question"
     return "Homework has been submitted successfully"
 
-def grade_2(predicted_labels):
+def grader_2(predicted_labels):
     try:
         global user_id 
         file = open('check_2.pkl', 'rb')
