@@ -26,7 +26,7 @@ def grader_2(out=[]):
         global user_id
         correct=0
         print(out)
-        if(out[0])=="(32, 10, 22)":
+        if(out[0])=="(10, 22, 32)":
             correct+=1
         if(out[1]=="No such triplet found"):
             correct+=1
